@@ -32,6 +32,7 @@ export const HeaderContainer = () => {
 
     const toggleTheme = () => {
         sectionRef.current.classList.toggle('dark--theme');
+        
     }
 
     return (
@@ -54,7 +55,8 @@ export const HeaderContainer = () => {
                 </button>
                 <input
                     ref={ inputRef }
-                    type="input"
+                    type="text"
+                    className="otro"
                     value={ searchInput }
                     onChange={(e) => setSearchInput(e.target.value)}
                     onFocus={ handleInputFocus }

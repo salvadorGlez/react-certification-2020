@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <VideoContainer /> should match snapshot 1`] = `
+<styled.div
+  img="https://i.ytimg.com/vi/nmXMgqjQzls/mqdefault.jpg"
+>
+  <div
+    className="img__container"
+  >
+    <div
+      className="img"
+    />
+    <p
+      className="video__desc"
+    >
+      Follow Hector Padilla, Wizeline Director of Engineering, for a lively tour of our office. In 2018, Wizeline opened its stunning new office in Guadalajara, Jalisco, ...
+    </p>
+  </div>
+  <div
+    className="video__title"
+  >
+    <h3
+      className="title"
+    >
+      Video Tour | Welcome to Wizeline Guadalajara
+    </h3>
+    <span
+      className="tooltip__text"
+    >
+      Video Tour | Welcome to Wizeline Guadalajara
+    </span>
+  </div>
+  <div
+    className="video__channel"
+  >
+    <a
+      href="https://www.youtube.com/channel/UCPGzT4wecuWM0BH9mPiulXg"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Wizeline
+    </a>
+  </div>
+</styled.div>
+`;
