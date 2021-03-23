@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { MenuComponent } from '../../components/MenuComponent/MenuComponent';
 import { Header } from './styles';
 
 export const HeaderContainer = () => {
@@ -6,10 +7,6 @@ export const HeaderContainer = () => {
     const buttonRef = useRef();
     const sectionRef = useRef();
     const [searchInput, setSearchInput] = useState('');
-
-    const openMenu = () => {
-        console.log('openMenu');
-    }
 
     const handleSearchButton = () => {
         if(searchInput === '') {
@@ -37,14 +34,7 @@ export const HeaderContainer = () => {
 
     return (
         <Header>
-            <div className="section menu__section">
-                <button
-                    className="btn"
-                    onClick={ openMenu }
-                >
-                    <i className="fas fa-bars"></i>
-                </button>
-            </div>
+            <MenuComponent />
             <div className="section search__section">
                 <button
                     ref={ buttonRef }

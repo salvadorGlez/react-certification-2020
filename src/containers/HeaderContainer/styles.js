@@ -10,13 +10,6 @@ export const Header = styled.div`
         padding: 0px 20px;
     }
 
-    .menu__section {
-
-        .fa-bars {
-            font-size: 20px;
-        }
-    }
-
     .search__section {
         position: relative;
 
