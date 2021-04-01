@@ -1,0 +1,10 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/salvador.gonzalez/Documents/Code/React Bootcamp/youtube-client-app/src/tests/containers/HeaderContainer/HeaderContainer.test.js[2msrc/tests/containers/HeaderContainer/[22m[1mHeaderContainer.test.js[22m]8;;
+[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/salvador.gonzalez/Documents/Code/React Bootcamp/youtube-client-app/src/tests/components/VideoContainer/VideoContainer.test.js[2msrc/tests/components/VideoContainer/[22m[1mVideoContainer.test.js[22m]8;;
+[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/salvador.gonzalez/Documents/Code/React Bootcamp/youtube-client-app/src/tests/helpers/getVideos.test.js[2msrc/tests/helpers/[22m[1mgetVideos.test.js[22m]8;;
+[0m[7m[1m[32m PASS [39m[22m[27m[0m ]8;;file:///Users/salvador.gonzalez/Documents/Code/React Bootcamp/youtube-client-app/src/tests/components/VideosContainer/VideosContainer.test.js[2msrc/tests/components/VideosContainer/[22m[1mVideosContainer.test.js[22m]8;;
+
+[1mTest Suites: [22m[1m[32m4 passed[39m[22m, 4 total
+[1mTests:       [22m[1m[32m8 passed[39m[22m, 8 total
+[1mSnapshots:   [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTime:[22m        [1m[33m4.354 s[39m[22m
+[2mRan all test suites[22m[2m related to changed files[22m[2m.[22m
