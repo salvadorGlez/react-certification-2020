@@ -1,5 +1,16 @@
+import searchYoutube from 'youtube-api-v3-search';
+import { YoutubeApiCrendetial } from '../constants/apiCredentials';
 
-export const getVideos = ({ items }) => {
+export const getVideos = async(searchValue, maxResults = 20) => {
+
+    const options = {
+        q: searchValue,
+        part: 'snippet',
+        type: 'video',
+        maxResults,
+      }
+
+    const { items } = await searchYoutube(YoutubeApiCrendetial, options);
     
     const videos = items
         .filter(item => item.id.kind.includes('video'))
